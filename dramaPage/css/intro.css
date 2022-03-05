@@ -1,0 +1,15 @@
+#program_info figure { max-width: 100%; position: relative; text-align: center; background-color: #87AAAA; }
+#project_people_info figure { max-width: 100%; position: relative; text-align: center; background-color: #87AAAA; }
+#relation_info figure { max-width: 100%; position: relative; text-align: center; background-color: #87AAAA; }
+#character_info figure { max-width: 100%; position: relative; text-align: center; background-color: #87AAAA; }
+
+details { margin-bottom: 1rem; }
+
+details > summary { 
+    background: #8fbeb9; text-align:center; margin-top: 10px; padding: 1rem; outline: 0; border-radius: 5px; cursor: pointer; transition: background 0.5s;
+    list-style: none;
+    border-radius: 0.5rem;
+    font-size: 15px; font-weight: bold; color: #4d6d69;
+}
+
+details[open] > summary { background:#709491; font-size: 15px; font-weight: bold; color: #2c3f3d; }

@@ -1,0 +1,40 @@
+body {
+    background: #b6e0dc;
+    background: -webkit-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -moz-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -o-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: linear-gradient(to left, #b6e0dc, #d7f0ed);
+}
+
+/* 관리자 회원 목록보기(admin_list.php) */
+#admin_box { width: 1000px; margin: 0 auto;}
+#admin_box h3#member_title { margin: 30px 0 10px 0; color: #4a5f5d;}
+#member_list { margin: 10px 0 30px 0; background:#b4d6d3;}
+#member_list li:nth-child(1) { font-weight: bold; border-top: solid 2px #dddddd; border-bottom: solid 2px #dddddd; background-color: #6b959c;}
+#member_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; font-size:15px; font-family:sans-serif; }
+#member_list span { display: inline-block; text-align: center;}
+#member_list input { width: 50px; height: 30px; text-align: center; background:#749692; color:#c4dfe0; font-family:sans-serif;}
+#member_list button { font-weight: bold; padding: 3px 10px; font-family: "Roboto", sans-serif; text-transform: uppercase; outline: 0; background: #96C7C1; width: 70%; border: 0;  color: #415c5a; font-size: 14px; -webkit-transition: all 0.3 ease; transition: all 0.3 ease; cursor: pointer; }
+#member_list button:hover { background: #c3f1ec; }
+#member_list button:active { background: #c3f1ec;}
+#member_list button:focus { background: #7ea39f; color: rgb(41, 49, 48)}
+#member_list .col1 { width: 100px; }
+#member_list .col2 { width: 110px; }
+#member_list .col3 { width:160px; }
+#member_list .col4 { width: 100px; }
+#member_list .col5 { width: 100px; }
+#member_list .col6 { width: 190px; }
+#member_list .col7 { width: 90px; }
+#member_list .col8 { width: 90px; }
+#admin_box h3#board_title { margin: 30px 0 10px 0; color: #4a5f5d;}
+#board_list { margin: 10px 0 50px 0; background:#b4d6d3; }
+#board_list .col1 { width: 100px; }
+#board_list .col2 { width: 100px; }
+#board_list .col3 { width: 200px; }
+#board_list .col4 { width: 360px; text-align: left}
+#board_list .col5 { width: 200px; }
+#board_list li.title { font-weight: bold; border-top: solid 2px #dddddd; border-bottom: solid 2px #dddddd; background-color: #6b959c; }
+#board_list li.title span.col4 { text-align: center; }
+#board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; font-size:15px; font-family:sans-serif; }
+#board_list span { display: inline-block; text-align: center; }
+#board_list button { margin: 30px 0 20px 130px; padding: 5px 10px; font-weight: bold; font-family: "Roboto", sans-serif; text-transform: uppercase; outline: 0; background: #96C7C1; width: 70%; border: 0;  color: #415c5a; font-size: 14px; -webkit-transition: all 0.3 ease; transition: all 0.3 ease; cursor: pointer; }

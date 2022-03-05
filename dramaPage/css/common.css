@@ -1,0 +1,47 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "맑은 고딕";   font-size: 16x; }
+img { border: 0;}
+ul { list-style-type: none; }
+
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #29302f; }
+a:hover { text-decoration:none; color: #29302f; }
+a:visited { text-decoration:none; color: #29302f; }
+a:active { text-decoration:none; color: #29302f; }
+
+/* 상단 헤더 */
+#top { position: relative; width: 1000px; height: 90px; margin: 0 auto; }
+#top h2 { position: absolute; top: 30px; left: 10px; font-size: 25px; }
+#top #top_menu { position: relative; float: right; margin: 40px 3px 0 0;}
+#top #top_menu li { display: inline; }
+#menu_bar { position: relative; height: 48px; background-color: #87AAAA; font-size: 15px; }
+#menu_bar ul { width: 1000px; margin: 0 auto; padding: 15px 0 0 100px; }
+#menu_bar li { display: inline; margin-left: 90px; color: white; }
+#menu_bar a:link { color: white; }
+#menu_bar a:hover { color: white; }
+#menu_bar a:visited { color: white; }
+#menu_bar a:active { color: white; }
+
+/* 메인 이미지 */
+#main_img_bar { position: relative; height: 250px; text-align: center; background-color: #F6EABE; }
+#main_img_bar img { margin-top: 0px; }
+
+/* 하단 푸터 */
+footer { height: 250px; background-color: #D0CAB2; }
+#footer_content { position: relative; margin: 0 auto; color: #55534e; }
+#footer_logo { position: absolute; top: 60px; right: 50px; font-size: 18px; }
+#author { position: absolute; top: 110px; right: 50px; }
+#phone { position: absolute; top: 145px; right: 50px; }
+#email { position: absolute; top: 180px; right: 50px; }
+
+body {
+    background: #b6e0dc;
+    background: -webkit-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -moz-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -o-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: linear-gradient(to left, #b6e0dc, #d7f0ed);
+}

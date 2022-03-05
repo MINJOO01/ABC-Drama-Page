@@ -1,0 +1,41 @@
+body {
+    background: #b6e0dc;
+    background: -webkit-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -moz-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: -o-linear-gradient(right, #b6e0dc, #d7f0ed);
+    background: linear-gradient(to left, #b6e0dc, #d7f0ed);
+}
+
+#board_box { position: relative; width: 800px; margin: 0 auto; }
+#board_box h3 { margin-top: 30px;	padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; color:#384a55;}
+#board_form span { display: inline-block; }
+#board_form .col1 { width: 80px; }
+#board_form li {	padding: 12px; border-bottom: solid 1px #dddddd; }
+#board_form input { width: 500px; height: 25px; font-family:'sans-serif'; font-size: 12px; background:#6a8a86; color:#d7f0ed;}
+#board_form textarea {  width: 500px;	height: 150px; font-family:'sans-serif'; font-size: 12px; background:#6a8a86;color:#d7f0ed;}
+#board_form #text_area { position: relative;	height: 180px; }
+#board_form #text_area .col1 { position: absolute; top: 10px; }
+#board_form #text_area .col2 { position: absolute; left: 98px; }
+#board_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#board_box .buttons li { display: inline; }
+#board_box .buttons button { font-family: "Roboto", sans-serif; text-transform: uppercase; outline: 0; background: #96C7C1; width: 20%; border: 0; padding: 15px; color: #222928; font-size: 14px; -webkit-transition: all 0.3 ease; transition: all 0.3 ease; cursor: pointer; font-weight: bold;}
+#board_box .buttons button:hover { background: #c3f1ec; }
+#board_box .buttons button:active { background: #c3f1ec; }
+#board_box .buttons button:focus { background: #7ea39f; color: #d7f0ed }
+
+#board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#board_list span { display: inline-block; text-align: center;}
+#board_list .col1 { width: 80px; }
+#board_list .col2 { width: 330px; text-align: left; }
+#board_list .col3 { width: 100px; }
+#board_list .col4 { width: 150px; }
+#board_list .col5 { width: 130px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+
+#board_box { width: 1000px; margin: 0 auto; }
+#board_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
