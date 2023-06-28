@@ -17,6 +17,10 @@
     *  편성: 5부작
       
 ![img1](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/05e52288-2850-4846-b459-c00ab339f1c1)
+
+
+***
+## 1. 데이터베이스 
 * DB
   * 데이터베이스명: dramaproject
   * 테이블 3개로 구성
@@ -98,4 +102,74 @@
            * 나무레벨
               * 게시글 5개 작성하면, 나무 레벨
               * 게시판 글쓰기, 게시판 상세보기, 쪽지 주고받기, [다시보기] 메뉴 이용O
+
+    * message.sql 
+      * ```sql
+		create table message (
+			num int not null auto_increment,
+			send_id char(20) not null,
+			rv_id char(20) not null,
+			subject char(200) not null,
+			content text not null,
+			registDay char(20),
+			primary key(num)
+		);
+        ```
+      *  각 컬럼의 의미
+         * num: 쪽지 개수
+         * send_id: 보낸 사람
+         * rv_id: 받은 사람
+         * subject: 쪽지 제목
+         * content: 쪽지 내용
+         * registDay: 쪽지 보내거나/받은 날짜
+           
 ***
+## 1. 기능
+#### (1) 메뉴 바의 메뉴는 5개로 구성됨
+* [HOME], [프로그램 정보], [클립 영상], [다시보기], [시청자 게시판]
+* [HOME] : index 페이지(home 화면)과 연결
+* [프로그램 정보] : intro 페이지(프로그램 정보 소개)와 연결
+* [클립 영상]: video1 페이지(클립 영상 나열)과 연결
+* [다시보기]: video2 페이지(풀 영상 나열)과 연결
+* [시청자 게시판]: board 페이지(시청자 게시판)과 연결
+
+![img3](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/1c55d2fb-b775-4ae7-9e58-61d70b314275)
+
+
+![img4](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/d75c1e74-0f95-45a3-b5f4-e4f2ff5cf766)
+
+
+#### (2) index 페이지의 구성
+
+![img5](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/42670c25-476a-4b48-bf59-6fe26a98006d)
+
+#### (3) 로그인 기능
+
+![img6](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/e77df9ac-b0b5-4548-8913-f3fe4d3863dc)
+
+![img7](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/4a57a68d-bef1-4e0c-9ef4-effc3f38c64a)
+
+![img8](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/296515e9-b8f9-447b-b567-69a6d889d8f7)
+
+![img9](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/d732b709-c119-4254-b8af-94187f92a835)
+
+![img10](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/b1f94908-8c94-4488-b289-8bfc85123329)
+
+![img11](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/10cdc04f-9af0-4468-97ef-cdd348c5c4cb)
+
+![img12](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/9f370914-3961-4c77-944e-4285255f1004)
+
+![img13](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/5edbfce6-1da8-4388-8dbd-31ce0d57b387)
+
+#### (4) 쪽지 기능
+* 열매 레벨 이상 사용 가능
+
+![img14](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/798dd841-5c11-4db0-98ab-a77269526999)
+
+![img15](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/c3574ae8-ffd0-43d1-9713-d1314b947edd)
+
+![img16](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/d04f4636-c5d1-4124-8feb-c99713c3d7a1)
+
+#### (4) 프로그램 정보 메뉴
+
+![img17](https://github.com/MINJOO01/ABC-Drama-Page/assets/77265017/f54c7d89-ce74-4263-9307-dc0ca14af503)
